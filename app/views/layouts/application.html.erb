@@ -12,13 +12,13 @@
 
   <body>
     <%= render 'layouts/header', user: @user %>
+    <main>
+      <!--<div class="container px-5 px-sm-0">-->
+        <p id="notice"><%= notice %></p>
 
-    <div class="container">
-      <p id="notice"><%= notice %></p>
-
-    </div>
-    <%= yield %>
-
+      <!--</div>-->
+      <%= yield %>
+    </main>
     <%= render 'layouts/footer' %>
   </body>
 </html>

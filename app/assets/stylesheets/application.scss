@@ -18,8 +18,15 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 header{
-	color:white;
+	color: white;
 	.navbar-left{
 		span{
 			font-size:20px;
@@ -28,8 +35,24 @@ header{
 	}
 }
 
+body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #212529;
+  text-align: left;
+}
+
 .body{
 	margin-top:51px;
+}
+
+table {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  box-sizing: border-box;
 }
 
 header .navbar-left span {
